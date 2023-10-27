@@ -24,8 +24,3 @@ if ( isNaN (eta) || isNaN(kilom) ){
     document.getElementById("mex").innerHTML = `Prezzo: ${fullprice}`;
     console.log("prezzo pieno" , fullprice);
     }
-    /*else if (Number.isFinite(eta) && Number.isFinite(kilom)) {
-    let fullprice = (kilom * 0.21) ;
-    document.getElementById("mex").innerHTML = `Prezzo: ${fullprice}`;
-    console.log("prezzo pieno" , fullprice);
-    }*/
